@@ -8,7 +8,11 @@ layout: default
   </header>
 
   <section class="post">
-    {{ content }}
+        {% if content contains '<!--more-->' %}
+        {{ content | split:'<!--more-->' | first }}
+        {% else %}
+        <!-- Case for when no excerpt is defined -->
+        {% endif %}
   </section>
 
 </article>
