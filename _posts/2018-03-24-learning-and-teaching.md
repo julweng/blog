@@ -8,7 +8,7 @@ permalink: /:categories/:year/:month/:day/
 
 In order to work with my students and colleagues, I had to learn a little bit of everything.
 I had to learn a bit of SQL, Python, R, etc. 
-Basically, a bit of everything, but master of nothing. 
+Basically, a bit of everything, but master of none. 
 
 And then, I met my husband, who is a C/C++ software engineer. 
  
